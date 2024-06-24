@@ -1,0 +1,1364 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 32px;
+    }
+
+
+
+    .block,
+    .block.mini_m
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .block.bg
+    {
+        padding: 50px 0 60px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 0;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item + .accordion_item
+    {
+        margin-top: 20px;
+    }
+
+
+    .accordion_item .head .title
+    {
+        font-size: 16px;
+    }
+
+
+    .accordion_item .head .arr
+    {
+        width: 32px;
+        height: 32px;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header .info
+    {
+        width: 192px;
+    }
+
+
+    .mob_header .mob_menu_btn
+    {
+        margin-left: auto;
+    }
+
+
+    .mob_header .feedback_btn
+    {
+        width: 100%;
+        margin-top: 16px;
+        margin-left: 0;
+        padding: 9px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        background: #f6f6f6;
+    }
+
+    .page_head.block.bg.no_pad
+    {
+        padding: 50px 0 60px;
+    }
+
+
+    .page_head .title
+    {
+        font-size: 38px;
+
+        text-align: center;
+    }
+
+
+    .page_head .title.big
+    {
+        font-size: 38px;
+
+        margin: 0;
+    }
+
+
+    .page_head .search
+    {
+        margin-top: 30px;
+    }
+
+
+    .page_head .search
+    {
+        flex-wrap: wrap;
+    }
+
+
+    .page_head .search .input
+    {
+        border-radius: 40px;
+    }
+
+
+    .page_head .search .submit_btn
+    {
+        width: 100%;
+        margin-top: 20px;
+
+        border-radius: 30px;
+    }
+
+
+    .page_head .links a
+    {
+        font-size: 12px;
+
+        padding: 12px 24px;
+    }
+
+
+    .page_head .bg
+    {
+        display: none;
+    }
+
+    .page_head .mob_bg
+    {
+        display: block;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *,
+    .form .columns > *.width1of3,
+    .form .columns > *.width2of3
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+    .form .submit_btn
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 20px;
+    }
+
+
+    .text_block .message
+    {
+        width: calc(100% + 60px);
+        margin-right: -30px;
+        margin-left: -30px;
+
+        border-radius: 0;
+    }
+
+
+    .text_block ol.numbers li:before
+    {
+        top: 0;
+        bottom: auto;
+
+        margin: 0;
+    }
+
+
+    .text_block img
+    {
+        width: calc(100% + 60px);
+        max-width: calc(100% + 60px);
+        margin-right: -30px;
+        margin-left: -30px;
+
+        border-radius: 0;
+    }
+
+
+    .text_block .cols .col
+    {
+        width: 100%;
+    }
+
+    .text_block .cols .col + .col
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 38px;
+    }
+
+
+    .first_section .desc br
+    {
+        display: none;
+    }
+
+
+    .first_section .price img
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+
+
+    /*-------------------
+        Why important
+    -------------------*/
+    .why_important.block.bg
+    {
+        padding-top: 0;
+    }
+
+
+    .why_important .image img
+    {
+        width: calc(100% + 60px);
+        margin-right: -30px;
+        margin-left: -30px;
+
+        border-radius: 0;
+    }
+
+
+    .why_important .data ul
+    {
+        margin-top: 30px;
+    }
+
+
+    .why_important .data ul li + li
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*-----------------
+        Relevant if
+    -----------------*/
+    .relevant_if.block.bg
+    {
+        padding-top: 0;
+    }
+
+
+    .relevant_if.block.bg.top_p
+    {
+        padding-top: 50px;
+    }
+
+
+    .relevant_if .image
+    {
+        width: calc(100% + 60px);
+        margin-right: -30px;
+        margin-left: -30px;
+
+        border-radius: 0;
+    }
+
+
+    .relevant_if .data ul li + li
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*-----------------------
+        Recovery features
+    -----------------------*/
+    .recovery_features.block.bg
+    {
+        padding-top: 0;
+    }
+
+
+    .recovery_features .image
+    {
+        width: calc(100% + 60px);
+        margin-right: -30px;
+        margin-left: -30px;
+
+        border-radius: 0;
+    }
+
+
+
+    /*------------------
+        Keep records
+    ------------------*/
+    .keep_records .delegate_full .service
+    {
+        width: calc(100% + 60px);
+        margin-right: -30px;
+        margin-left: -30px;
+
+        border-radius: 0;
+        background: none;
+    }
+
+
+    .keep_records .delegate_full .service .info
+    {
+        padding-bottom: 0;
+    }
+
+
+    .keep_records .delegate_full .service .btn
+    {
+        width: 100%;
+    }
+
+
+    .keep_records .delegate_full .service .price
+    {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0;
+
+        text-align: center;
+    }
+
+
+
+    /*---------------
+        Solutions
+    ---------------*/
+    .solutions .row
+    {
+        margin-left: 0;
+    }
+
+
+    .solutions .row > *,
+    .solutions .row > *.big
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*--------------------
+        EAEU countries
+    --------------------*/
+    .EAEU_countries.block.bg
+    {
+        padding-top: 0;
+    }
+
+
+    .EAEU_countries .image
+    {
+        width: calc(100% + 60px);
+        margin-right: -30px;
+        margin-left: -30px;
+
+        border-radius: 0;
+    }
+
+
+    .EAEU_countries .title
+    {
+        margin-bottom: 30px;
+    }
+
+
+    .EAEU_countries .sub_title
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*--------------------------
+        Accounting MSFO info
+    --------------------------*/
+    .accounting_MSFO_info .desc
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*----------------------
+        Service included
+    ----------------------*/
+    .service_included .data .title
+    {
+        margin-bottom: 30px;
+    }
+
+
+    .service_included .image
+    {
+        width: calc(100% + 60px);
+        margin-right: -30px;
+        margin-left: -30px;
+
+        border-radius: 0;
+    }
+
+
+    .service_included .info .text_block .message
+    {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+
+        border-radius: 20px;
+    }
+
+
+
+    /*------------------------------
+        Reg. legal entities info
+    ------------------------------*/
+    .reg_legal_entities_info.block.bg
+    {
+        padding-top: 0;
+    }
+
+
+    .reg_legal_entities_info .data .text_block
+    {
+        margin-top: 30px;
+    }
+
+
+    .reg_legal_entities_info .image
+    {
+        width: calc(100% + 60px);
+        margin-right: -30px;
+        margin-left: -30px;
+
+        border-radius: 0;
+    }
+
+
+
+    /*----------------------------------
+        Accountant consultation info
+    ----------------------------------*/
+    .accountant_consultation_info.block.bg
+    {
+        padding-top: 0;
+    }
+
+
+    .accountant_consultation_info .image
+    {
+        width: calc(100% + 60px);
+        margin-right: -30px;
+        margin-left: -30px;
+
+        border-radius: 0;
+    }
+
+
+    .accountant_consultation_info .data .text_block
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*-----------------------------------
+        Accountant consultation price
+    -----------------------------------*/
+    .accountant_consultation_price .data
+    {
+        width: 100%;
+    }
+
+
+    .accountant_consultation_price .data .label
+    {
+        width: 368px;
+    }
+
+
+    .accountant_consultation_price .influences
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+
+
+    /*------------------------------
+        Payroll preparation info
+    ------------------------------*/
+    .payroll_preparation_info.block.bg
+    {
+        padding-top: 0;
+    }
+
+
+    .payroll_preparation_info .image
+    {
+        width: calc(100% + 60px);
+        margin-right: -30px;
+        margin-left: -30px;
+
+        border-radius: 0;
+    }
+
+
+    .payroll_preparation_info .text_block
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*------------------------
+        Service included 2
+    ------------------------*/
+    .service_included2 .row
+    {
+        margin-left: 0;
+    }
+
+
+    .service_included2 .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*-----------------------------
+        Support tax audits info
+    -----------------------------*/
+    .support_tax_audits_info .image
+    {
+        width: calc(100% + 60px);
+        margin-right: -30px;
+        margin-left: -30px;
+
+        border-radius: 0;
+    }
+
+
+    .support_tax_audits_info .desc
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*--------------------
+        Outsourcing KZ
+    --------------------*/
+    .outsourcing_kz .cont
+    {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+
+    .outsourcing_kz .title
+    {
+        font-size: 38px;
+    }
+
+
+
+    /*--------------------
+        Outsourcing RU
+    --------------------*/
+    .outsourcing_ru .data .title
+    {
+        font-size: 38px;
+    }
+
+
+
+    .outsourcing_ru .data ul li br
+    {
+        display: none;
+    }
+
+
+    .outsourcing_ru .data .btn
+    {
+        width: 100%;
+    }
+
+
+    .outsourcing_ru .info
+    {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .outsourcing_ru .info:before
+    {
+        top: 94px;
+        right: 55px;
+
+        width: 260px;
+        height: 320px;
+
+        border-radius: 40px;
+    }
+
+
+    .outsourcing_ru .info .img
+    {
+        width: 420px;
+        height: auto;
+    }
+
+
+    .outsourcing_ru .info .price
+    {
+        font-size: 14px;
+
+        top: 20px;
+    }
+
+
+    .outsourcing_ru .info .price img
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .outsourcing_ru .info .price b
+    {
+        font-size: 18px;
+    }
+
+
+    .outsourcing_ru .info .remotely
+    {
+        font-size: 14px;
+
+        bottom: 20px;
+        left: 40px;
+    }
+
+
+    .outsourcing_ru .info .remotely img
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row
+    {
+        margin-bottom: -30px;
+        margin-left: 0;
+    }
+
+
+    .advantages .row > *,
+    .advantages .row > *.small
+    {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .swiper
+    {
+        padding-bottom: 42px;
+    }
+
+
+    .services .swiper-pagination
+    {
+        display: flex;
+    }
+
+
+    .services .btn
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .image
+    {
+        width: calc(100% + 60px);
+        max-width: calc(100% + 60px);
+        margin-right: -30px;
+        margin-left: -30px;
+        padding-bottom: 75%;
+
+        border-radius: 0;;
+    }
+
+
+    .about_info .title,
+    .about_info .desc
+    {
+        text-align: center;
+    }
+
+
+
+    /*--------------
+        For whom
+    --------------*/
+    .for_whom .row
+    {
+        margin-bottom: -30px;
+        margin-left: 0;
+    }
+
+
+    .for_whom .row > *
+    {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps .row
+    {
+        margin-bottom: -30px;
+        margin-left: 0;
+    }
+
+
+    .steps .row > *,
+    .steps .row > *.small
+    {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+
+
+
+    /*-------------
+        Turnkey
+    -------------*/
+    .turnkey .block_head
+    {
+        text-align: center;
+    }
+
+
+    .turnkey .item .icon
+    {
+        margin: 0 auto 24px;
+    }
+
+
+    .turnkey .item .icon + *
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block
+    {
+        padding: 60px 0;
+    }
+
+
+    .action_block .block_head
+    {
+        text-align: center;
+    }
+
+
+
+    /*-----------------
+        Get consult
+    -----------------*/
+    .get_consult
+    {
+        padding: 60px 0;
+    }
+
+
+    .get_consult .block_head
+    {
+        text-align: center;
+    }
+
+
+
+    /*------------
+        Why we
+    ------------*/
+    .why_we .row
+    {
+        margin-bottom: -30px;
+        margin-left: 0;
+    }
+
+
+    .why_we .row > *
+    {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+
+
+
+    /*---------------
+        Who needs
+    ---------------*/
+    .who_needs .image
+    {
+        width: calc(100% + 60px);
+        max-width: calc(100% + 60px);
+        margin-right: -30px;
+        margin-left: -30px;
+        padding-bottom: 75%;
+
+        border-radius: 0;
+    }
+
+
+
+    /*----------------
+        Price info
+    ----------------*/
+    .price_info .prices
+    {
+        width: 100%;
+    }
+
+
+    .price_info .includes
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+
+    .price_info .btn
+    {
+        width: 100%;
+    }
+
+
+
+    /*--------------
+        Benefits
+    --------------*/
+    .benefits .btn
+    {
+        width: 100%;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles.bg
+    {
+        padding: 50px 0;
+    }
+
+
+    .articles .row
+    {
+        margin-left: 0;
+    }
+
+    .articles .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .articles .row > *.mob_hide
+    {
+        display: none;
+    }
+
+
+
+    /*-----------
+        Stats
+    -----------*/
+    .stats .row
+    {
+        justify-content: center;
+    }
+
+
+    .stats .row > *
+    {
+        width: calc(50% - 30px);
+    }
+
+
+
+    /*----------------------
+        Simple solutions
+    ----------------------*/
+    .simple_solutions.block.bg
+    {
+        padding-top: 0;
+    }
+
+
+    .simple_solutions .image
+    {
+        width: calc(100% + 60px);
+        max-width: calc(100% + 60px);
+        margin-right: -30px;
+        margin-left: -30px;
+
+        border-radius: 0;
+    }
+
+
+
+    /*----------------
+        Industries
+    ----------------*/
+    .industries .row > *
+    {
+        width: calc(50% - 30px);
+    }
+
+
+    .industries .item
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*-----------
+        Cases
+    -----------*/
+    .cases .swiper
+    {
+        padding: 0 0 42px;
+    }
+
+
+    .cases .swiper-button-next,
+    .cases .swiper-button-prev
+    {
+        display: none;
+    }
+
+
+    .cases .swiper-pagination
+    {
+        display: flex;
+    }
+
+
+
+    /*----------
+        Blog
+    ----------*/
+    .blog .posts .post .date,
+    .blog .posts .post .category
+    {
+        font-size: 12px;
+    }
+
+
+    .blog .posts .post .thumb
+    {
+        border-radius: 20px;
+    }
+
+
+    .blog .posts .post .name
+    {
+        font-size: 22px;
+    }
+
+
+    .blog .posts .post .thumb
+    {
+        padding: 0;
+    }
+
+
+    .blog .posts .post .thumb img
+    {
+        position: relative;
+
+        height: auto;
+
+        border-radius: 20px 20px 0 0;
+    }
+
+
+    .blog .posts .post .caption
+    {
+        font-size: 16px;
+
+        position: relative;
+
+        padding: 20px;
+
+        background: #44b859;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data .label
+    {
+        width: 100%;
+        margin-bottom: 10px;
+
+        text-align: center;
+    }
+
+
+    .contacts_info .data .val
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    .contacts_info .map
+    {
+        width: calc(100% + 60px);
+        height: 360px;
+        margin-top: 60px;
+        margin-right: -30px;
+        margin-left: -30px;
+    }
+
+
+
+    /*----------------
+        Requisites
+    ----------------*/
+    .requisites
+    {
+        text-align: center;
+    }
+
+
+    .requisites .items > * + *
+    {
+        margin-top: 30px;
+    }
+
+
+    .requisites .items .label
+    {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+
+    .requisites .items .val
+    {
+        width: 100%;
+    }
+
+
+
+    /*--------------
+        FAQ page
+    --------------*/
+    .FAQ_page .accordion_item .head
+    {
+        padding-right: 79px;
+    }
+
+
+    .FAQ_page .accordion_item .head .number,
+    .FAQ_page .accordion_item .head .title
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*------------------
+        Article head
+    -----------------*/
+    .article_head
+    {
+        align-content: flex-start;
+        align-items: flex-start;
+
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
+    .article_head .reading_time
+    {
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+
+    .article_head .title
+    {
+        font-size: 34px;
+        line-height: 130%;
+    }
+
+
+    .article_head .desc
+    {
+        font-size: 20px;
+
+        width: 100%;
+    }
+
+
+    .case_info .result
+    {
+        font-size: 20px;
+
+        padding: 18px;
+
+        text-align: center;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .col_main
+    {
+        padding: 30px 24px;
+    }
+
+
+    .article_info .article_title
+    {
+        font-size: 20px;
+    }
+
+
+
+    .article_info .consult
+    {
+        margin-top: 111px;
+        padding: 155px 24px 35px;
+    }
+
+
+    .article_info .consult .btn
+    {
+        width: 100%;
+        padding: 16px 30px;
+    }
+
+
+    .article_info .consult .img
+    {
+        top: -111px;
+        right: 0;
+        bottom: auto;
+        left: 0;
+
+        width: 160px;
+        margin: 0 auto;
+    }
+
+
+
+    /*--------------
+        Comments
+    --------------*/
+    .comments .add_comment
+    {
+        padding: 40px 24px;
+    }
+
+
+    .comments .add_comment .title
+    {
+        font-size: 24px;
+
+        text-align: center;
+    }
+
+
+    .comments .add_comment .form .line
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .comments .add_comment .form .submit
+    {
+        padding-top: 20px;
+    }
+
+
+    .comments .list
+    {
+        padding: 0;
+    }
+
+
+    .comments .comment .text
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 50px 0;
+    }
+
+
+    footer .col_left
+    {
+        width: 100%;
+    }
+
+
+    footer .consult_btn
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+    footer .menu
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 100%;
+        padding: 30px 30px 50px;
+
+        border-radius: 0;
+    }
+
+
+    .modal_desc br
+    {
+        display: none;
+    }
+}

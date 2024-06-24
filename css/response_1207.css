@@ -1,0 +1,1230 @@
+@media print,
+(max-width: 1207px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 36px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .block.bg
+    {
+        padding: 68px 0 80px;
+    }
+
+
+    .cont
+    {
+        padding: 0 30px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 40px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .feedback_btn
+    {
+        font-size: var(--font_size);
+
+        padding: 11px 27px;
+    }
+
+
+    header .sub_menu
+    {
+        padding: 40px 0;
+    }
+
+
+    header .menu .cols
+    {
+        margin-left: -40px;
+    }
+
+
+    header .menu .cols .col
+    {
+        max-width: calc(50% - 40px);
+        margin-left: 40px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head .title
+    {
+        font-size: 46px;
+    }
+
+
+    .page_head .title.big
+    {
+        font-size: 200px;
+
+        margin: -20px 0 16px;
+    }
+
+
+    .page_head .search
+    {
+        margin-top: 40px;
+    }
+
+
+    .page_head .links a
+    {
+        font-size: 16px;
+
+        padding: 16px 32px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block .big
+    {
+        font-size: 18px;
+    }
+
+
+    .text_block h2
+    {
+        font-size: 22px;
+    }
+
+
+    .text_block .cols .col
+    {
+        width: calc(50% - 15px);
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 46px;
+    }
+
+
+    .first_section .img
+    {
+        top: 80px;
+
+        max-height: calc(100% - 160px);
+    }
+
+
+
+    /*------------------
+        Keep records
+    ------------------*/
+    .keep_records .delegate_full .service .info
+    {
+        padding: 30px;
+    }
+
+
+    .keep_records .delegate_full .service .btn
+    {
+        padding: 18px 25px;
+    }
+
+
+
+    /*---------------
+        Solutions
+    ---------------*/
+    .solutions .row
+    {
+        margin-bottom: -30px;
+        margin-left: -30px;
+    }
+
+
+    .solutions .row > *
+    {
+        width: calc(33.333% - 30px);
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+
+    .solutions .row > *.big
+    {
+        width: calc(100% - 30px);
+    }
+
+
+    .solutions .solution .bottom
+    {
+        flex-wrap: wrap;
+    }
+
+
+    .solutions .solution .price
+    {
+        width: 100%;
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+
+
+    /*--------------------------
+        Accounting MSFO info
+    --------------------------*/
+    .accounting_MSFO_info .desc
+    {
+        margin-top: 40px;
+    }
+
+
+    .accounting_MSFO_info .info:before
+    {
+        right: -4px;
+        bottom: -20px;
+
+        width: 300px;
+        height: 400px;
+    }
+
+
+    .accounting_MSFO_price .data,
+    .accounting_MSFO_price .influences
+    {
+        width: calc(50% - 15px);
+    }
+
+
+
+    /*----------------------
+        Service included
+    ----------------------*/
+    .service_included .data .title
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .service_included .image:before
+    {
+        width: 220px;
+        height: 360px;
+    }
+
+
+
+    /*------------------------------
+        Reg. legal entities info
+    ------------------------------*/
+    .reg_legal_entities_info .image:before
+    {
+        width: 320px;
+        height: 380px;
+    }
+
+
+    .reg_legal_entities_info .data .text_block
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*----------------------------------
+        Accountant consultation info
+    ----------------------------------*/
+    .accountant_consultation_info .image:before
+    {
+        width: 260px;
+        height: 320px;
+    }
+
+
+    .accountant_consultation_info .data .text_block
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*-----------------------------------
+        Accountant consultation price
+    -----------------------------------*/
+    .accountant_consultation_price .data,
+    .accountant_consultation_price .influences
+    {
+        width: calc(50% - 15px);
+    }
+
+
+
+    /*------------------------------
+        Payroll preparation info
+    ------------------------------*/
+    .payroll_preparation_info .image:before
+    {
+        width: 380px;
+        height: 480px;
+    }
+
+
+    .payroll_preparation_info .text_block
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*-------------------
+        Service price
+    -------------------*/
+    .service_price .data,
+    .service_price .influences
+    {
+        width: calc(50% - 15px);
+    }
+
+
+
+    /*------------------------
+        Service included 2
+    ------------------------*/
+    .service_included2 .row
+    {
+        margin-bottom: -30px;
+        margin-left: -30px;
+    }
+
+
+    .service_included2 .row > *
+    {
+        width: calc(50% - 30px);
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+
+
+
+    /*-----------------------------
+        Support tax audits info
+    -----------------------------*/
+    .support_tax_audits_info .desc
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*--------------------
+        Outsourcing KZ
+    --------------------*/
+    .outsourcing_kz:before
+    {
+        width: calc(100% - 640px);
+    }
+
+
+    .outsourcing_kz:after
+    {
+        display: none;
+    }
+
+
+    .outsourcing_kz .flag
+    {
+        top: 30px;
+
+        width: 100px;
+        height: 100px;
+        margin-left: 80px;
+    }
+
+
+    .outsourcing_kz .cont
+    {
+        min-height: 0;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+
+    .outsourcing_kz .title
+    {
+        font-size: 46px;
+    }
+
+
+    .outsourcing_kz .img
+    {
+        top: 60px;
+
+        width: 660px;
+        max-height: calc(100% - 120px);
+        margin-left: 32px;
+    }
+
+
+
+    /*--------------------
+        Outsourcing RU
+    --------------------*/
+    .outsourcing_ru
+    {
+        padding: 80px 0;
+    }
+
+
+    .outsourcing_ru .data .title
+    {
+        font-size: 46px;
+    }
+
+
+    .outsourcing_ru .info
+    {
+        top: 4px;
+        right: -80px;
+
+        margin-right: 0;
+    }
+
+
+    .outsourcing_ru .info .price
+    {
+        top: 48px;
+        left: 20px;
+    }
+
+
+    .outsourcing_ru .info .price img
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+    .outsourcing_ru .info .remotely
+    {
+        bottom: 32px;
+        left: 68px;
+    }
+
+
+    .outsourcing_ru .info .remotely img
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .bg
+    {
+        bottom: -100px;
+
+        display: none;
+    }
+
+
+
+    .advantages .row
+    {
+        margin-left: -30px;
+    }
+
+
+    .advantages .row > *
+    {
+        width: calc(33.333% - 30px);
+        margin-left: 30px;
+    }
+
+
+    .advantages .row > *.small
+    {
+        width: calc(25% - 30px);
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .row
+    {
+        margin-bottom: -30px;
+        margin-left: -30px;
+    }
+
+
+    .services .row > *
+    {
+        width: calc(33.333% - 30px);
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+
+
+    .services .service
+    {
+        padding: 20px;
+    }
+
+
+    .services .service .name br
+    {
+        display: none;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .image
+    {
+        width: 420px;
+        height: 396px;
+        margin-left: -30px;
+    }
+
+
+    .about_info .data
+    {
+        width: calc(100% - 440px);
+    }
+
+
+    .about_info .desc
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*--------------
+        For whom
+    --------------*/
+    .for_whom .row
+    {
+        margin-bottom: -30px;
+        margin-left: -30px;
+    }
+
+
+    .for_whom .row > *
+    {
+        width: calc(50% - 30px);
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+
+
+    .for_whom .item .info
+    {
+        padding: 16px 30px 30px;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps .row
+    {
+        margin-bottom: -40px;
+        margin-left: -30px;
+    }
+
+
+    .steps .row > *
+    {
+        width: calc(33.333% - 30px);
+        margin-bottom: 40px;
+        margin-left: 30px;
+    }
+
+
+    .steps .row > *.small
+    {
+        width: calc(25% - 30px);
+    }
+
+
+    .steps .step + .step:before
+    {
+        width: calc(100% + 30px);
+    }
+
+
+
+    /*-------------
+        Turnkey
+    -------------*/
+    .turnkey .row
+    {
+        margin-bottom: -30px;
+        margin-left: -30px;
+    }
+
+
+    .turnkey .row > *
+    {
+        width: calc(50% - 30px);
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+
+
+    .turnkey .item
+    {
+        padding: 30px;
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block
+    {
+        padding: 80px 0;
+    }
+
+
+
+    /*------------
+        Why we
+    ------------*/
+    .why_we .row
+    {
+        margin-bottom: -30px;
+        margin-left: -30px;
+    }
+
+
+    .why_we .row > *
+    {
+        width: calc(50% - 30px);
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+
+
+    .why_we .item .info
+    {
+        padding: 16px 30px 30px;
+    }
+
+
+
+    /*----------------
+        Price info
+    ----------------*/
+    .price_info .prices
+    {
+        width: calc(50% - 15px);
+    }
+
+
+    .price_info .prices .price
+    {
+        width: 216px;
+    }
+
+
+    .price_info .includes
+    {
+        width: calc(50% - 15px);
+    }
+
+
+
+    /*--------------
+        Benefits
+    --------------*/
+    .benefits table th
+    {
+        font-size: 16px;
+
+        padding: 20px;
+    }
+
+
+    .benefits table td
+    {
+        padding: 20px;
+    }
+
+
+
+    .benefits .btn
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .row
+    {
+        margin-bottom: -30px;
+        margin-left: -30px;
+    }
+
+
+    .articles .row > *
+    {
+        width: calc(33.333% - 30px);
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+
+
+    .articles .article .info
+    {
+        padding: 16px 20px 24px;
+    }
+
+
+    .articles .article .name
+    {
+        font-size: 20px;
+    }
+
+
+    .articles .article .stats
+    {
+        font-size: 12px;
+
+        padding-top: 40px;
+    }
+
+
+    .articles .article .stats .comments
+    {
+        margin-left: 12px;
+    }
+
+
+
+    /*-----------
+        Stats
+    -----------*/
+    .stats .row
+    {
+        margin-bottom: -30px;
+        margin-left: -30px;
+    }
+
+
+    .stats .row > *
+    {
+        width: calc(33.333% - 30px);
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+
+
+
+    /*----------------------
+        Simple solutions
+    ----------------------*/
+    .simple_solutions .title
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .simple_solutions .image:before
+    {
+        bottom: -8px;
+
+        width: 320px;
+        height: 380px;
+    }
+
+
+
+    /*----------------
+        Industries
+    ----------------*/
+    .industries .row
+    {
+        margin-bottom: -30px;
+        margin-left: -30px;
+    }
+
+
+    .industries .row > *
+    {
+        width: calc(25% - 30px);
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+
+
+    .industries .item
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*-----------
+        Cases
+    -----------*/
+    .cases .swiper
+    {
+        padding: 0 68px;
+    }
+
+
+
+    /*----------
+        Blog
+    ----------*/
+    .blog .col_left
+    {
+        width: 100%;
+    }
+
+    .blog .col_left > * + *
+    {
+        margin-top: 30px;
+    }
+
+
+    .blog .col_center
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+
+    .blog .posts > * + *
+    {
+        margin-top: 30px;
+    }
+
+
+    .blog .posts .post .name
+    {
+        font-size: 26px;
+    }
+
+
+    .blog .col_right
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .blog .col_right > * + *
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+    .contacts_info .data .label
+    {
+        width: 280px;
+    }
+
+
+    .contacts_info .data .val
+    {
+        width: calc(100% - 310px);
+    }
+
+
+    .contacts_info .map
+    {
+        height: 400px;
+        margin-top: 80px;
+    }
+
+
+
+    /*----------------
+        Requisites
+    ----------------*/
+    .requisites .items > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+    .requisites .items .label
+    {
+        width: 280px;
+    }
+
+
+    .requisites .items .val
+    {
+        width: calc(100% - 310px);
+    }
+
+
+
+    /*--------------
+        FAQ page
+    --------------*/
+    .FAQ_page .accordion_item .head .number,
+    .FAQ_page .accordion_item .head .title
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*-----------------
+        Relevant if
+    -----------------*/
+    .relevant_if .data .title
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .relevant_if .image:before
+    {
+        right: -4px;
+        bottom: -16px;
+
+        width: 220px;
+        height: 312px;
+    }
+
+
+    .relevant_if .image.big:before
+    {
+        width: 240px;
+        height: 352px;
+    }
+
+
+    .relevant_if .image.small:before
+    {
+        width: 180px;
+        height: 280px;
+    }
+
+
+
+    /*-----------------------
+        Recovery features
+    -----------------------*/
+    .recovery_features .desc
+    {
+        margin-top: 40px;
+    }
+
+
+    .recovery_features .image:before
+    {
+        width: 280px;
+        height: 420px;
+    }
+
+
+
+    /*--------------------
+        Recovery price
+    --------------------*/
+    .recovery_price .data
+    {
+        width: calc(50% - 15px);
+    }
+
+
+    .recovery_price .influences
+    {
+        width: calc(50% - 15px);
+    }
+
+
+
+    /*------------------
+        Article head
+    -----------------*/
+    .article_head
+    {
+        min-height: 400px;
+    }
+
+
+    .article_head .info
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .article_head .title
+    {
+        font-size: 48px;
+        line-height: 120%;
+
+        width: 600px;
+    }
+
+
+    .article_head .desc
+    {
+        font-size: 18px;
+
+        width: 480px;
+        margin-top: 24px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .col_main
+    {
+        width: calc(100% - 289px);
+    }
+
+
+    .article_info .anchors .title
+    {
+        font-size: 20px;
+    }
+
+
+    .article_info .article_title
+    {
+        font-size: 25px;
+    }
+
+
+    .article_info .info
+    {
+        margin-top: 24px;
+    }
+
+
+    .article_info .text_block
+    {
+        margin-top: 48px;
+    }
+
+
+    .article_info .consult
+    {
+        margin-top: 48px;
+        padding: 30px;
+    }
+
+
+    .article_info .consult .desc
+    {
+        width: 348px;
+        max-width: 100%;
+    }
+
+    .article_info .consult .desc br
+    {
+        display: none;
+    }
+
+
+    .article_info .consult .btn
+    {
+        font-size: 16px;
+
+        padding: 16px 40px;
+    }
+
+
+    .article_info .consult .img
+    {
+        right: 24px;
+    }
+
+
+    .article_info .share
+    {
+        font-size: 16px;
+
+        margin-top: 48px;
+    }
+
+
+
+    /*---------------
+        Case info
+    ---------------*/
+    .case_info .links .title
+    {
+        font-size: 20px;
+    }
+
+
+    .case_info .features
+    {
+        font-size: 18px;
+    }
+
+
+    .case_info .result
+    {
+        font-size: 18px;
+
+        margin-top: 24px;
+        padding: 16px 28px;
+    }
+
+
+
+    /*--------------
+        Comments
+    --------------*/
+    .comments .add_comment
+    {
+        padding: 40px 48px;
+    }
+
+
+    .comments .add_comment .title
+    {
+        font-size: 22px;
+    }
+
+
+    .comments .add_comment .form .columns
+    {
+        --form_columns_offset: 30px;
+    }
+
+
+    .comments .add_comment .form .line
+    {
+        margin-bottom: 30px;
+    }
+
+
+    .comments .add_comment .form .submit_btn
+    {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+
+
+    .comments .list
+    {
+        margin-top: 48px;
+        padding: 0 48px;
+    }
+
+
+    .comments .comment .text
+    {
+        font-size: 16px;
+
+        margin-top: 16px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 80px 0;
+    }
+
+
+    footer .col_left
+    {
+        width: 332px;
+    }
+
+
+    footer .copyright,
+    footer .privacy_policy
+    {
+        font-size: var(--font_size);
+        line-height: normal;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 732px;
+        padding: 50px 80px;
+    }
+
+
+    .modal .logo
+    {
+        left: 30px;
+
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,1393 @@
+@media print,
+(max-width: 1023px)
+{
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 30px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head .title
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        position: fixed;
+        z-index: 101;
+        top: 0;
+        right: 100%;
+
+        width: 100%;
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        margin: 0;
+        padding: 0;
+
+        transition: transform .3s linear;
+
+        background: #fff;
+    }
+
+    header.show
+    {
+        transform: translateX(100%);
+    }
+
+
+    header .scroll
+    {
+        overflow: auto;
+
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        padding: 50px 0;
+
+        overscroll-behavior-y: contain;
+    }
+
+
+    header .menu,
+    header .menu.full_w
+    {
+        display: none;
+
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 0;
+    }
+
+    header .menu.full_w
+    {
+        display: block;
+    }
+
+
+    header .menu_item.hide
+    {
+        display: block;
+    }
+
+    header .menu_item + .menu_item
+    {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+
+    header .menu_item > a
+    {
+        font-size: 18px;
+    }
+
+
+    header .menu_item .sub_menu,
+    header .menu_item:hover .sub_menu
+    {
+        position: relative;
+        top: 0;
+
+        display: none;
+        visibility: hidden;
+
+        padding: 20px 0 10px;
+
+        pointer-events: auto;
+
+        opacity: 1;
+    }
+
+    header .sub_menu:before
+    {
+        display: none;
+    }
+
+
+    header .menu_item .sub_menu .cont
+    {
+        padding: 0;
+    }
+
+
+    header .menu_item > a.touch_link + .sub_menu.show
+    {
+        display: block;
+        visibility: visible;
+    }
+
+
+    header .menu .tabs
+    {
+        display: none;
+    }
+
+
+    header .menu .mob_links
+    {
+        display: block;
+    }
+
+
+    header .menu .mob_tab_btn
+    {
+        display: flex;
+    }
+
+
+    header .menu .tab_content,
+    header .menu .tab_content.active
+    {
+        width: 100%;
+    }
+
+
+    header .menu .mob_tab_btn + .tab_content
+    {
+        padding-top: 20px;
+    }
+
+
+    header .menu .cols
+    {
+        margin-left: 0;
+    }
+
+
+    header .menu .cols .col
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+
+    header .contacts
+    {
+        order: 3;
+
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+
+    header .contacts .phone
+    {
+        font-size: 20px;
+
+        width: 100%;
+        margin-left: 0;
+
+        text-align: center;
+    }
+
+
+    header .contacts .messengers
+    {
+        justify-content: center;
+        order: 2;
+
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+
+    header .contacts .messengers a + a
+    {
+        margin-left: 20px;
+    }
+
+
+    header .contacts .messengers img
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+
+    header .feedback_btn
+    {
+        font-size: 18px;
+
+        order: 2;
+
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 0;
+        padding: 17px;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header
+    {
+        display: block;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head .title.big
+    {
+        font-size: 160px;
+
+        margin: -12px 0 12px;
+    }
+
+
+    .page_head .links a
+    {
+        font-size: 15px;
+
+        padding: 15px 30px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .title br
+    {
+        display: none;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *.width1of3,
+    .form .columns > *.width2of3
+    {
+        width: calc(50% - var(--form_columns_offset));
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block .big
+    {
+        font-size: 17px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .first_section.bg_green:before
+    {
+        display: none;
+    }
+
+
+    .first_section .cont
+    {
+        position: static;
+
+        order: 2;
+
+        min-height: 0;
+        padding-top: 68px;
+    }
+
+
+    .first_section .data
+    {
+        width: 100%;
+    }
+
+
+    .first_section .img,
+    .first_section:after
+    {
+        display: none;
+    }
+
+
+    .first_section .price
+    {
+        top: 91px;
+        left: 30px;
+
+        margin-left: 0;
+    }
+
+
+    .first_section .img.tablet_show
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+
+        display: block;
+
+        width: calc(100% + 60px);
+        max-height: none;
+        margin-right: -30px;
+        margin-left: -30px;
+
+        border-radius: 0;
+    }
+
+
+
+    /*-------------------
+        Why important
+    -------------------*/
+    .why_important .data
+    {
+        width: 100%;
+    }
+
+
+    .why_important .data ul
+    {
+        margin-top: 40px;
+    }
+
+
+    .why_important .image
+    {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+
+    .why_important .image:before
+    {
+        display: none;
+    }
+
+
+
+    /*-----------------
+        Relevant if
+    -----------------*/
+    .relevant_if .data
+    {
+        order: 2;
+
+        width: 100%;
+    }
+
+
+    .relevant_if .data .title
+    {
+        margin-bottom: 30px;
+    }
+
+
+    .relevant_if .image
+    {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .relevant_if .image.big
+    {
+        margin-top: 0;
+    }
+
+
+    .relevant_if .image:before
+    {
+        display: none;
+    }
+
+
+
+    /*-----------------------
+        Recovery features
+    -----------------------*/
+    .recovery_features .image
+    {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+
+    .recovery_features .image:before
+    {
+        display: none;
+    }
+
+
+    .recovery_features .data
+    {
+        order: 2;
+
+        width: 100%;
+    }
+
+
+    .recovery_features .desc
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*--------------------
+        Recovery price
+    --------------------*/
+    .recovery_price .data
+    {
+        width: 100%;
+    }
+
+
+    .recovery_price .influences
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+
+
+    /*------------------
+        Keep records
+    ------------------*/
+    .keep_records .delegate_full .data
+    {
+        width: 100%;
+    }
+
+
+    .keep_records .delegate_full .data .title
+    {
+        font-size: 24px;
+    }
+
+
+    .keep_records .delegate_full .service
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+
+    .keep_records .delegate_full .service .name
+    {
+        margin-bottom: 30px;
+    }
+
+
+    .keep_records .delegate_full .service .btn
+    {
+        padding: 18px 36px;
+    }
+
+
+
+    /*---------------
+        Solutions
+    ---------------*/
+    .solutions .title
+    {
+        font-size: 28px;
+
+        margin-bottom: 40px;
+    }
+
+
+    .solutions .row > *,
+    .solutions .row > *.big
+    {
+        width: calc(50% - 30px);
+    }
+
+
+    .solutions .solution .thumb
+    {
+        display: none;
+    }
+
+
+    .solutions .solution.big .info
+    {
+        width: 100%;
+    }
+
+
+
+    /*--------------------
+        EAEU countries
+    --------------------*/
+    .EAEU_countries .image
+    {
+        width: 100%;
+        margin-bottom: 30px;
+
+        border-radius: 30px;
+    }
+
+
+    .EAEU_countries .data
+    {
+        width: 100%;
+    }
+
+
+    .EAEU_countries .title
+    {
+        margin-bottom: 40px;
+    }
+
+
+
+    /*--------------------------
+        Accounting MSFO info
+    --------------------------*/
+    .accounting_MSFO_info .data
+    {
+        width: 100%;
+    }
+
+
+    .accounting_MSFO_info .info
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+
+    .accounting_MSFO_info .info:before
+    {
+        display: none;
+    }
+
+
+    .accounting_MSFO_price .data,
+    .accounting_MSFO_price .influences
+    {
+        width: 100%;
+    }
+
+
+    .accounting_MSFO_price .influences
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*----------------------
+        Service included
+    ----------------------*/
+    .service_included .data
+    {
+        order: 2;
+
+        width: 100%;
+    }
+
+
+    .service_included .image
+    {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+
+    .service_included .image:before
+    {
+        display: none;
+    }
+
+
+    .service_included .info
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+
+
+    /*------------------------------
+        Reg. legal entities info
+    ------------------------------*/
+    .reg_legal_entities_info .image
+    {
+        width: 100%;
+    }
+
+    .reg_legal_entities_info .image:before
+    {
+        display: none;
+    }
+
+
+    .reg_legal_entities_info .data
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+
+
+    /*----------------------------------
+        Accountant consultation info
+    ----------------------------------*/
+    .accountant_consultation_info .image
+    {
+        width: 100%;
+    }
+
+    .accountant_consultation_info .image:before
+    {
+        display: none;
+    }
+
+
+    .accountant_consultation_info .data
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+
+
+    /*-----------------------------------
+        Accountant consultation price
+    -----------------------------------*/
+    .accountant_consultation_price .data
+    {
+        width: 100%;
+    }
+
+
+    .accountant_consultation_price .data .label
+    {
+        width: 368px;
+    }
+
+
+    .accountant_consultation_price .influences
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+
+
+    /*------------------------------
+        Payroll preparation info
+    ------------------------------*/
+    .payroll_preparation_info .image
+    {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .payroll_preparation_info .image:before
+    {
+        display: none;
+    }
+
+
+    .payroll_preparation_info .data
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+
+
+    /*-------------------
+        Service price
+    -------------------*/
+    .service_price .data
+    {
+        width: 100%;
+    }
+
+
+    .service_price .influences,
+    .service_price .data + .data
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+
+
+    /*-----------------------------
+        Support tax audits info
+    -----------------------------*/
+    .support_tax_audits_info .data
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+
+    .support_tax_audits_info .image
+    {
+        width: 100%;
+    }
+
+
+    .support_tax_audits_info .image:before
+    {
+        display: none;
+    }
+
+
+
+    /*--------------------
+        Outsourcing KZ
+    --------------------*/
+    .outsourcing_kz:before,
+    .outsourcing_kz .img,
+    .outsourcing_kz .flag
+    {
+        display: none;
+    }
+
+
+    .outsourcing_kz .cont
+    {
+        padding-top: 68px;
+    }
+
+
+    .outsourcing_kz .data
+    {
+        width: 100%;
+    }
+
+
+    .outsourcing_kz .title img
+    {
+        position: relative;
+        top: -1px;
+
+        display: inline-block;
+
+        vertical-align: middle;
+    }
+
+
+    .outsourcing_kz .form
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*--------------------
+        Outsourcing RU
+    --------------------*/
+    .outsourcing_ru
+    {
+        padding-top: 20px;
+    }
+
+
+    .outsourcing_ru .cont
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .outsourcing_ru .data
+    {
+        order: 2;
+
+        width: 100%;
+    }
+
+
+    .outsourcing_ru .info
+    {
+        position: relative;
+        top: 0;
+        right: 0;
+
+        margin: 0 auto 30px;
+    }
+
+
+    .outsourcing_ru .info .price
+    {
+        top: 40px;
+        left: 0;
+
+        padding-right: 20px;
+    }
+
+
+    .outsourcing_ru .info .price img
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+
+    .outsourcing_ru .info .price b
+    {
+        font-size: 20px;
+    }
+
+
+    .outsourcing_ru .info .remotely
+    {
+        bottom: 28px;
+        left: 60px;
+
+        padding-right: 20px;
+    }
+
+
+    .outsourcing_ru .info .remotely img
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row > *,
+    .advantages .row > *.small
+    {
+        width: calc(50% - 30px);
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .row > *
+    {
+        width: calc(50% - 30px);
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .image
+    {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-left: 0;
+        padding-bottom: 66.666%;
+
+        border-radius: 30px;
+    }
+
+    .about_info .image:before
+    {
+        display: none;
+    }
+
+
+    .about_info .data
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps .row
+    {
+        justify-content: center;
+    }
+
+    .steps .row > *,
+    .steps .row > *.small
+    {
+        width: calc(50% - 30px);
+    }
+
+
+    .steps .step + .step:before
+    {
+        display: none;
+    }
+
+
+
+    /*-------------
+        Turnkey
+    -------------*/
+    .turnkey .row
+    {
+        margin-bottom: -30px;
+        margin-left: 0;
+    }
+
+
+    .turnkey .row > *
+    {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+
+
+    .turnkey .exp
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block .block_head
+    {
+        width: 100%;
+    }
+
+
+    .action_block .btns
+    {
+        width: 100%;
+        margin-top: 38px;
+    }
+
+
+
+    /*-----------------
+        Get consult
+    -----------------*/
+    .get_consult .block_head
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+    .get_consult .form
+    {
+        width: 100%;
+        margin-top: 38px;
+        padding: 0;
+    }
+
+
+
+    /*---------------
+        Who needs
+    ---------------*/
+    .who_needs .image
+    {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-left: 0;
+        padding-bottom: 66.666%;
+
+        border-radius: 30px;
+    }
+
+    .who_needs .image:before
+    {
+        display: none;
+    }
+
+
+    .who_needs .data
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+
+
+    /*----------------
+        Price info
+    ----------------*/
+    .price_info .prices .label
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    .price_info .prices .price
+    {
+        width: 100%;
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+
+
+    /*--------------
+        Benefits
+    --------------*/
+    .benefits .table_wrap
+    {
+        display: none;
+    }
+
+
+    .benefits .mob_version
+    {
+        display: block;
+    }
+
+
+
+    /*-----------
+        Focus
+    -----------*/
+    .focus .data
+    {
+        width: 100%;
+    }
+
+
+    .focus .info
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .row > *
+    {
+        width: calc(50% - 30px);
+    }
+
+
+    .articles .row > *.tablet_hide
+    {
+        display: none;
+    }
+
+
+    .articles .article .info
+    {
+        padding: 16px 30px 30px;
+    }
+
+
+
+    /*----------------------
+        Simple solutions
+    ----------------------*/
+    .simple_solutions .data
+    {
+        order: 2;
+
+        width: 100%;
+        margin-top: 30px;
+    }
+
+
+    .simple_solutions .title
+    {
+        margin-bottom: 30px;
+    }
+
+
+    .simple_solutions .image
+    {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+
+        border-radius: 30px;
+    }
+
+    .simple_solutions .image:before
+    {
+        display: none;
+    }
+
+
+
+    /*----------------
+        Industries
+    ----------------*/
+    .industries .row > *
+    {
+        width: calc(33.333% - 30px);
+    }
+
+
+    .industries .item
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*----------
+        Blog
+    ----------*/
+    .blog .posts .post .thumb
+    {
+        border-radius: 30px;
+    }
+
+
+    .blog .posts .post .name
+    {
+        font-size: 24px;
+    }
+
+
+    .blog .posts .post .caption
+    {
+        font-size: 18px;
+
+        padding: 20px 30px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data .label
+    {
+        width: 240px;
+    }
+
+
+    .contacts_info .data .val
+    {
+        width: calc(100% - 270px);
+    }
+
+
+
+    /*----------------
+        Requisites
+    ----------------*/
+    .requisites .items .label
+    {
+        width: 240px;
+    }
+
+
+    .requisites .items .val
+    {
+        width: calc(100% - 270px);
+    }
+
+
+
+    /*--------------
+        FAQ page
+    --------------*/
+    .FAQ_page .accordion_item .head .number,
+    .FAQ_page .accordion_item .head .title
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*------------------
+        Article head
+    -----------------*/
+    .article_head .info
+    {
+        font-size: 13px;
+    }
+
+
+    .article_head .title
+    {
+        font-size: 40px;
+
+        width: 100%;
+    }
+
+
+    .article_head .desc
+    {
+        font-size: 16px;
+
+        width: 400px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .col_left
+    {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+
+    .article_info .col_main
+    {
+        width: 100%;
+    }
+
+
+    .article_info .anchors .title
+    {
+        font-size: 22px;
+    }
+
+
+    .article_info .article_title
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*---------------
+        Case info
+    ---------------*/
+    .case_info .links .title
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*--------------
+        Comments
+    --------------*/
+    .comments .add_comment
+    {
+        padding: 40px;
+    }
+
+
+    .comments .add_comment .form .submit_btn
+    {
+        width: 100%;
+    }
+
+
+    .comments .list
+    {
+        padding: 0 40px;
+    }
+
+
+    .comments .comment .text
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 60px 0;
+    }
+
+
+    footer .cont + .cont
+    {
+        margin-top: 40px;
+    }
+
+
+    footer .col_left
+    {
+        width: 340px;
+    }
+
+
+    footer .col_right
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+    footer .contacts
+    {
+        text-align: left;
+    }
+
+
+    footer .copyright
+    {
+        order: 2;
+
+        width: 100%;
+        margin-top: 16px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 680px;
+        padding: 50px;
+    }
+
+
+    .modal .logo
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+
+        margin-bottom: 57px;
+    }
+}
